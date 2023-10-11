@@ -65,7 +65,7 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'spms',
+        'NAME': 'spms_db',
         'USER': 'root',
         'PASSWORD': '1234',
         'HOST': 'localhost',
